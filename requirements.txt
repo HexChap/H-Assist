@@ -1,0 +1,9 @@
+databases==0.5.3
+fastapi==0.70.0
+pydantic==1.8.2
+uvicorn==0.15.0
+passlib==1.7.4
+python-dotenv==0.19.2
+python-jose=3.3.0
+bcrypt==3.2.0
+aerich==0.6.0
