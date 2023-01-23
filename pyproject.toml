@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "h-assistv2"
+version = "0.1.0"
+description = ""
+authors = ["Kirill Ibragimov <hexchap@gmail.com>"]
+readme = "README.md"
+packages = [{include = "h_assistv2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.89.1"
+tortoise-orm = {extras = ["asyncpg"], version = "^0.19.2"}
+pydantic = {extras = ["email", "dotenv"], version = "^1.10.4"}
+uvicorn = "^0.20.0"
+passlib = "^1.7.4"
+bcrypt = "^4.0.1"
+python-jose = "^3.3.0"
+loguru = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
